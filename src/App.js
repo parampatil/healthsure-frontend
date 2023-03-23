@@ -17,7 +17,7 @@ import Logo from "./components/Logo";
 import { logout } from "./actions/auth";
 import { clearMessage } from "./actions/message";
 
-// import AuthVerify from "./common/AuthVerify";
+import AuthVerify from "./common/AuthVerify";
 import EventBus from "./common/EventBus";
 
 const App = () => {
@@ -41,8 +41,10 @@ const App = () => {
 
   useEffect(() => {
     if (currentUser) {
-      setShowModeratorBoard(currentUser.roles.includes("ROLE_MODERATOR"));
-      setShowAdminBoard(currentUser.roles.includes("ROLE_ADMIN"));
+      // setShowModeratorBoard(currentUser.roles.includes("ROLE_MODERATOR"));
+      // setShowAdminBoard(currentUser.roles.includes("ROLE_ADMIN"));
+      setShowModeratorBoard(true);
+      setShowAdminBoard(true);
     } else {
       setShowModeratorBoard(false);
       setShowAdminBoard(false);
@@ -126,7 +128,7 @@ const App = () => {
       </nav>
 
       <div className="container mt-3">
-        <div className="container">
+        {/* <div className="container">
           <header className="jumbotron">
             <h3>ABC</h3>
           </header>
@@ -135,11 +137,12 @@ const App = () => {
           <header className="jumbotron">
             <h3>BoardAdmin</h3>
           </header>
-        </div>
+        </div> */}
+
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/home" element={<Home />} /> */}
-          <Route path="login" element={<Login />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/user" element={<BoardUser />} />
@@ -148,7 +151,7 @@ const App = () => {
         </Routes>
       </div>
 
-      {/* <AuthVerify logOut={logOut}/> */}
+      <AuthVerify logOut={logOut}/>
     </div>
   );
 };

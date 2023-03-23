@@ -1,15 +1,13 @@
 {
-  "main.css": "/healthsure-frontend/static/css/main.1337dbf1.chunk.css",
-  "main.js": "/healthsure-frontend/static/js/main.f6cd8718.chunk.js",
-  "main.js.map": "/healthsure-frontend/static/js/main.f6cd8718.chunk.js.map",
-  "static/css/1.3b416db9.chunk.css": "/healthsure-frontend/static/css/1.3b416db9.chunk.css",
-  "static/js/1.6772f40b.chunk.js": "/healthsure-frontend/static/js/1.6772f40b.chunk.js",
-  "static/js/1.6772f40b.chunk.js.map": "/healthsure-frontend/static/js/1.6772f40b.chunk.js.map",
-  "runtime~main.js": "/healthsure-frontend/static/js/runtime~main.04bd1bc4.js",
-  "runtime~main.js.map": "/healthsure-frontend/static/js/runtime~main.04bd1bc4.js.map",
-  "static/css/main.1337dbf1.chunk.css.map": "/healthsure-frontend/static/css/main.1337dbf1.chunk.css.map",
-  "static/css/1.3b416db9.chunk.css.map": "/healthsure-frontend/static/css/1.3b416db9.chunk.css.map",
-  "index.html": "/healthsure-frontend/index.html",
-  "precache-manifest.9ca6908825e2e5202a70a083d0b94fdd.js": "/healthsure-frontend/precache-manifest.9ca6908825e2e5202a70a083d0b94fdd.js",
-  "service-worker.js": "/healthsure-frontend/service-worker.js"
+  "files": {
+    "main.css": "/healthsure-frontend/static/css/main.1c9848f2.css",
+    "main.js": "/healthsure-frontend/static/js/main.2d91397d.js",
+    "index.html": "/healthsure-frontend/index.html",
+    "main.1c9848f2.css.map": "/healthsure-frontend/static/css/main.1c9848f2.css.map",
+    "main.2d91397d.js.map": "/healthsure-frontend/static/js/main.2d91397d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c9848f2.css",
+    "static/js/main.2d91397d.js"
+  ]
 }

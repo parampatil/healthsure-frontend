@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/healthsure-frontend/precache-manifest.856435ffe7e183b08d61e1c6b30e6e48.js"
+  "/healthsure-frontend/precache-manifest.7c5e5c10e12ad5a5db720e9ac7f30e32.js"
 );
 
 workbox.clientsClaim();

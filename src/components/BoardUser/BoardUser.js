@@ -4,6 +4,7 @@ import UserService from "../../services/user.service";
 import EventBus from "../../common/EventBus";
 
 import PatientDetails from "./PatientDetails"
+import MedicalRecords from "./MedicalRecords";
 
 import "./BoardUser.css";
 
@@ -45,34 +46,8 @@ const BoardUser = () => {
           {/* <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4"> */}
 
           <div class="patient-dashboard">
-            <PatientDetails userInfo={content}/>
-            <div class="medical-records">
-              <h3>Medical Records</h3>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Date</th>
-                    <th>Doctor</th>
-                    <th>Diagnosis</th>
-                    <th>Treatment</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>01/01/2023</td>
-                    <td>Dr. Sri Ram</td>
-                    <td>High blood pressure</td>
-                    <td>Prescribed medication</td>
-                  </tr>
-                  <tr>
-                    <td>02/15/2023</td>
-                    <td>Dr. Param Patil</td>
-                    <td>Flu</td>
-                    <td>Prescribed rest and fluids</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <PatientDetails />
+            <MedicalRecords />
             <div class="insurance-claims">
               <h3>Insurance Claims</h3>
               <table>

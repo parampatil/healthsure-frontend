@@ -12,32 +12,7 @@
     margin-bottom: 20px;
   }
   
-  .patient-info ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .patient-info li {
-    margin-bottom: 10px;
-  }
-  
-  .medical-records table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-  
-  .medical-records th,
-  .medical-records td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  .medical-records th {
-    background-color: #f2f2f2;
-  }
+
   
   .insurance-claims table {
     width: 100%;

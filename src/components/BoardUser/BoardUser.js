@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import UserService from "../../services/user.service";
 import EventBus from "../../common/EventBus";
 
+import PatientDetails from "./PatientDetails"
+
 import "./BoardUser.css";
 
 const BoardUser = () => {
@@ -36,33 +38,14 @@ const BoardUser = () => {
       <header className="jumbotron">
         <h3>{content}</h3>
       </header>
+      
       <div class="container-fluid">
         <div class="row">
           {/* <!-- content area --> */}
           {/* <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4"> */}
 
           <div class="patient-dashboard">
-            {/* <h2>My Dashboard</h2> */}
-            <div class="patient-info">
-              <h3>My Information</h3>
-              <ul>
-                <li>
-                  <strong>Name:</strong> Abhijith Dameruppala
-                </li>
-                <li>
-                  <strong>Age:</strong> 500
-                </li>
-                <li>
-                  <strong>Gender:</strong> Male
-                </li>
-                <li>
-                  <strong>Address:</strong> 923 N College Ave, IN, USA
-                </li>
-                <li>
-                  <strong>Phone:</strong> 123-420-1234
-                </li>
-              </ul>
-            </div>
+            <PatientDetails userInfo={content}/>
             <div class="medical-records">
               <h3>Medical Records</h3>
               <table>

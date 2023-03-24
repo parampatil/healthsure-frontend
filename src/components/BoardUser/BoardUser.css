@@ -1,0 +1,80 @@
+/* Patient Dashboard CSS */
+.patient-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .patient-dashboard h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .patient-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .patient-info li {
+    margin-bottom: 10px;
+  }
+  
+  .medical-records table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .medical-records th,
+  .medical-records td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .medical-records th {
+    background-color: #f2f2f2;
+  }
+  
+  .insurance-claims table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .insurance-claims th,
+  .insurance-claims td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .insurance-claims th {
+    background-color: #f2f2f2;
+  }
+  
+  .communication textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .communication button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .communication button:hover {
+    background-color: #45a049;
+  }

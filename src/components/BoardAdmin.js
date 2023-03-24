@@ -9,7 +9,8 @@ const BoardAdmin = () => {
   useEffect(() => {
     UserService.getAdminBoard().then(
       (response) => {
-        setContent(response.data);
+        // setContent(response.data);
+        setContent(response.data.quote);
       },
       (error) => {
         const _content =

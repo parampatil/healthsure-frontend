@@ -9,7 +9,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Home from "./components/Home";
 import Profile from "./components/Profile";
-import BoardUser from "./components/BoardUser";
+import BoardUser from "./components/BoardUser/BoardUser";
 import BoardModerator from "./components/BoardModerator";
 import BoardAdmin from "./components/BoardAdmin";
 import Logo from "./components/Logo";
@@ -67,7 +67,7 @@ const App = () => {
         </Link>
         <div className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link to={"/home"} className="nav-link">
+            <Link to={"/"} className="nav-link">
               Home
             </Link>
           </li>
@@ -151,7 +151,7 @@ const App = () => {
         </Routes>
       </div>
 
-      <AuthVerify logOut={logOut}/>
+      <AuthVerify logOut={logOut} />
     </div>
   );
 };

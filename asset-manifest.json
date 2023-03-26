@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/healthsure-frontend/static/css/main.3b088a11.css",
-    "main.js": "/healthsure-frontend/static/js/main.006b31cc.js",
+    "main.css": "/healthsure-frontend/static/css/main.592838ca.css",
+    "main.js": "/healthsure-frontend/static/js/main.dcc980f8.js",
+    "static/media/banner8.jpg": "/healthsure-frontend/static/media/banner8.6b6894e132def6ea8d19.jpg",
+    "static/media/banner7.jpg": "/healthsure-frontend/static/media/banner7.ea0f2f0e1aef51edc18b.jpg",
+    "static/media/banner4.jpg": "/healthsure-frontend/static/media/banner4.0b882810268ad1b7bf5e.jpg",
+    "static/media/banner6.jpg": "/healthsure-frontend/static/media/banner6.0b882810268ad1b7bf5e.jpg",
+    "static/media/banner9.jpg": "/healthsure-frontend/static/media/banner9.2482957a2103a0584ee2.jpg",
+    "static/media/banner5.jpg": "/healthsure-frontend/static/media/banner5.b3609ff4345ad3d65ec7.jpg",
     "index.html": "/healthsure-frontend/index.html",
-    "main.3b088a11.css.map": "/healthsure-frontend/static/css/main.3b088a11.css.map",
-    "main.006b31cc.js.map": "/healthsure-frontend/static/js/main.006b31cc.js.map"
+    "main.592838ca.css.map": "/healthsure-frontend/static/css/main.592838ca.css.map",
+    "main.dcc980f8.js.map": "/healthsure-frontend/static/js/main.dcc980f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b088a11.css",
-    "static/js/main.006b31cc.js"
+    "static/css/main.592838ca.css",
+    "static/js/main.dcc980f8.js"
   ]
 }

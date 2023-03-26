@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/healthsure-frontend/static/css/main.42b06658.css",
-    "main.js": "/healthsure-frontend/static/js/main.fb63a8fd.js",
+    "main.css": "/healthsure-frontend/static/css/main.3b088a11.css",
+    "main.js": "/healthsure-frontend/static/js/main.006b31cc.js",
     "index.html": "/healthsure-frontend/index.html",
-    "main.42b06658.css.map": "/healthsure-frontend/static/css/main.42b06658.css.map",
-    "main.fb63a8fd.js.map": "/healthsure-frontend/static/js/main.fb63a8fd.js.map"
+    "main.3b088a11.css.map": "/healthsure-frontend/static/css/main.3b088a11.css.map",
+    "main.006b31cc.js.map": "/healthsure-frontend/static/js/main.006b31cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.42b06658.css",
-    "static/js/main.fb63a8fd.js"
+    "static/css/main.3b088a11.css",
+    "static/js/main.006b31cc.js"
   ]
 }

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import UserService from "../../services/user.service";
 import EventBus from "../../common/EventBus";
 
-import "./MedicalRecords.css";
+import "./InsuranceClaims.css";
 
 import { makeStyles } from "@material-ui/core/styles";
 import {
@@ -22,42 +22,41 @@ import {
 } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
-  table: {
-    minWidth: 650,
-  },
-  tableContainer: {
-    borderRadius: 15,
-    margin: "10px 10px",
-    // maxWidth: 900,
-  },
-  tableHeaderCell: {
-    fontWeight: "bold",
-    backgroundColor: theme.palette.primary.dark,
-    color: theme.palette.getContrastText(theme.palette.primary.dark),
-  },
-  avatar: {
-    backgroundColor: theme.palette.primary.light,
-    color: theme.palette.getContrastText(theme.palette.primary.light),
-  },
-  name: {
-    fontWeight: "bold",
-    color: theme.palette.secondary.dark,
-  },
-  status: {
-    fontWeight: "bold",
-    fontSize: "0.75rem",
-    color: "white",
-    backgroundColor: "grey",
-    borderRadius: 8,
-    padding: "3px 10px",
-    display: "inline-block",
-  },
-}));
+    table: {
+      minWidth: 650,
+    },
+    tableContainer: {
+      borderRadius: 15,
+      margin: "10px 10px",
+      // maxWidth: 900,
+    },
+    tableHeaderCell: {
+      fontWeight: "bold",
+      backgroundColor: theme.palette.primary.dark,
+      color: theme.palette.getContrastText(theme.palette.primary.dark),
+    },
+    avatar: {
+      backgroundColor: theme.palette.primary.light,
+      color: theme.palette.getContrastText(theme.palette.primary.light),
+    },
+    name: {
+      fontWeight: "bold",
+      color: theme.palette.secondary.dark,
+    },
+    status: {
+      fontWeight: "bold",
+      fontSize: "0.75rem",
+      color: "white",
+      backgroundColor: "grey",
+      borderRadius: 8,
+      padding: "3px 10px",
+      display: "inline-block",
+    },
+  }));
+  
+  let STATUSES = ["Active", "Pending", "Blocked"];
 
-let STATUSES = ["Active", "Pending", "Blocked"];
-
-// Component starts here
-const MedicalRecords = () => {
+const InsuranceClaims = () => {
     const [data,  setData] = useState();
     const [loadingStatus, setloadingStatus] = useState(true)
 
@@ -111,10 +110,10 @@ const MedicalRecords = () => {
   };
 
   return (
-    <div className="medical-records">
-      <div className="medical-records-header">
-        <h1 className="medical-records-header-title">
-          Medical Records:
+    <div className="insurance-claims">
+      <div className="insurance-claims-header">
+        <h1 className="insurance-claims-header-title">
+            Insurance Claims:
         </h1>
       </div>
       {loadingStatus && <p>Loading...</p>}
@@ -177,7 +176,7 @@ const MedicalRecords = () => {
             </Table>
         </TableContainer>}
     </div>
-  );
-};
+  )
+}
 
-export default MedicalRecords;
+export default InsuranceClaims;

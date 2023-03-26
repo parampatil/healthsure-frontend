@@ -24,9 +24,15 @@ const getAdminBoard = () => {
   return axios.get(API_URL + "quotes/random");
 };
 
+const getMedicalRecords = () => {
+  // return axios.get(API_URL + "user", { headers: authHeader() });
+  return axios.get(API_URL + "users");
+};
+
 export default {
   getPublicContent,
   getUserBoard,
   getModeratorBoard,
   getAdminBoard,
+  getMedicalRecords,
 };

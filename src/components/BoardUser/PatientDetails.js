@@ -6,12 +6,13 @@ import EventBus from "../../common/EventBus";
 import "./PatientDetails.css"
 
 const PatientDetails = () => {
-    const user = JSON.parse(localStorage.getItem("user"));
+
+   let user = JSON.parse(localStorage.getItem("user"));
+
     return(
         <div className="PatientDetails">
             <div className="PatientDetails-header">
-                <h1 className="PatientDetails-header-title">Patient Details</h1>
-                
+                <h1 className="PatientDetails-header-title">Patient Details</h1>  
             </div>
             <div className="patient-info">
                 <ul>
@@ -19,10 +20,16 @@ const PatientDetails = () => {
                     <strong>Name:</strong> {user.firstName + " " + user.lastName}
                     </li>
                     <li>
+                    <strong>username:</strong> {user.username}
+                    </li>
+                    <li>
                     <strong>Gender:</strong> {user.gender}
                     </li>
                     <li>
                     <strong>Age:</strong> 30
+                    </li>
+                    <li>
+                    <strong>email:</strong> {user.email}
                     </li>
                     <li>
                     <strong>Address:</strong> 923 N College Ave, IN, USA

@@ -7,6 +7,7 @@ import Input from "react-validation/build/input";
 import CheckButton from "react-validation/build/button";
 
 import { login } from "../actions/auth";
+import "./Login.css";
 
 const required = (value) => {
   if (!value) {
@@ -69,8 +70,9 @@ const Login = (props) => {
   }
 
   return (
-    <div className="col-md-12">
-      <div className="card card-container">
+    // <div className="col-md-12">
+    <div className="login-container">
+      <div className="card">
         <img
           src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
           alt="profile-img"

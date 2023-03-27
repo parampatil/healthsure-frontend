@@ -8,6 +8,8 @@ import { isEmail } from "validator";
 
 import { register } from "../actions/auth";
 
+import "./Register.css";
+
 const required = (value) => {
   if (!value) {
     return (
@@ -94,8 +96,9 @@ const Register = () => {
   };
 
   return (
-    <div className="col-md-12">
-      <div className="card card-container">
+    // <div className="col-md-12">
+    <div className="register-container">
+      <div className="card">
         <img
           src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
           alt="profile-img"

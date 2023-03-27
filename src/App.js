@@ -61,7 +61,7 @@ const App = () => {
 
   return (
     <div>
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
+      <nav className="navbar navbar-expand navbar-dark bg-dark sticky-top">
         <Link to={"/"} className="navbar-brand">
           <Logo height={50} width={250} />
         </Link>
@@ -127,18 +127,7 @@ const App = () => {
         )}
       </nav>
 
-      <div className="container mt-3">
-        {/* <div className="container">
-          <header className="jumbotron">
-            <h3>ABC</h3>
-          </header>
-        </div>
-        <div className="container">
-          <header className="jumbotron">
-            <h3>BoardAdmin</h3>
-          </header>
-        </div> */}
-
+      <div>
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/home" element={<Home />} /> */}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../../../node_modules/materialize-css/dist/css/materialize.min.css';
+import EmailIcon from '@mui/icons-material/Email';
 
 class Contact extends Component {
   render() {
@@ -9,8 +10,9 @@ class Contact extends Component {
           <div className="row">
             <div className="col s12 m6">
               <div className="card-panel purple white-text center">
-                <i className="material-icons medium">email</i>
-                <h5>AirPnP Address</h5>
+                {/* <i className="material-icons medium">email</i> */}
+                <EmailIcon sx={{ fontSize: 100 }}/>
+                <h5>HealthSure Address</h5>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus sed praesentium delectus. Sit, mollitia
                   quo. Veniam repellat voluptas ipsum doloremque?</p>
               </div>
@@ -18,10 +20,10 @@ class Contact extends Component {
                 <li className="collection-header">
                   <h4>Main Office</h4>
                 </li>
-                <li className="collection-item">AirPnP Booking</li>
+                <li className="collection-item">HealthSure Booking</li>
                 <li className="collection-item"><i className="fas fa-map-marker-alt"></i> 123 Checkout rd, California, US</li>
                 <li className="collection-item"><i className="fas fa-phone"></i> (800) 123-4567</li>
-                <li className="collection-item"><i className="fas fa-envelope-square"></i> booking@airpnp.com</li>
+                <li className="collection-item"><i className="fas fa-envelope-square"></i> booking@HealthSure.com</li>
               </ul>
             </div>
             <div className="col s12 m6">

@@ -20,7 +20,7 @@ class Popular extends Component {
               <div className="card">
                 <div className="card-image">
                   <img src={Resort1} alt="" />
-                  <span className="card-title">Individual and family</span>
+                  <span className="card-title text-warning font-weight-bold">Individual and family</span>
                   <Link class="btn-floating activator halfway-fab waves-effect waves-light purple" href="#"><AddIcon sx={{ fontSize: 40 }} /></Link>
                 </div>
                 <div className="card-content">
@@ -39,7 +39,7 @@ class Popular extends Component {
               <div className="card">
                 <div className="card-image">
                   <img src={Resort2} alt="" />
-                  <span className="card-title">Medicare</span>
+                  <span className="card-title text-warning font-weight-bold">Medicare</span>
                   <Link class="btn-floating activator halfway-fab waves-effect waves-light purple"><AddIcon sx={{ fontSize: 40 }} /></Link>
                 </div>
                 <div className="card-content">
@@ -57,7 +57,7 @@ class Popular extends Component {
               <div className="card">
                 <div className="card-image">
                   <img src={Resort3} alt="" />
-                  <span className="card-title">Dental</span>
+                  <span className="card-title text-warning font-weight-bold">Dental</span>
                   <Link class="btn-floating activator halfway-fab waves-effect waves-light purple"><AddIcon sx={{ fontSize: 40 }} /></Link>
                 </div>
                 <div className="card-content">
@@ -72,13 +72,13 @@ class Popular extends Component {
               </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col s12 center">
               <a href="#contact" className="btn btn-large grey darken-3">
                 <i className="material-icons left">send</i> Contact For Booking
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     );

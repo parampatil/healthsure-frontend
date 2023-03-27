@@ -40,8 +40,8 @@ const Home = () => {
         <Search />
         <Explore />
         <Adventure />
-        <Booking />
-        <Gallery />
+        {/* <Booking /> */}
+        {/* <Gallery /> */}
         <Contact />
         <Footer />
       </Fragment>

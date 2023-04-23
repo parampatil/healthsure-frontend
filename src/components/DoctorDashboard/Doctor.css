@@ -1,0 +1,274 @@
+.btn-toolbar .btn {
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.btn-outline-secondary {
+  border-color: #6c757d;
+}
+/* styles.css */
+
+.card-header {
+  background-color: #f4f4f4;
+}
+
+.page-heading {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  border-radius: 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.main-footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background-color: #f4f4f4;
+}
+
+/* @media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+} */
+
+/* Patient Dashboard CSS */
+.patient-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.patient-dashboard h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.patient-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.patient-info li {
+  margin-bottom: 10px;
+}
+
+.medical-records table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.medical-records th,
+.medical-records td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.medical-records th {
+  background-color: #f2f2f2;
+}
+
+.insurance-claims table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.insurance-claims th,
+.insurance-claims td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.insurance-claims th {
+  background-color: #f2f2f2;
+}
+
+.communication textarea {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.communication button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.communication button:hover {
+  background-color: #45a049;
+}
+
+/* Doctor Search */
+
+/* Search form styles */
+.search-form {
+margin: 50px auto;
+max-width: 600px;
+text-align: center;
+}
+
+.search-form h1 {
+font-size: 2em;
+margin-bottom: 20px;
+}
+
+.search-form form {
+display: inline-block;
+text-align: left;
+}
+
+.search-form label {
+display: block;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.search-form input[type="text"],
+.search-form select {
+display: block;
+margin-bottom: 20px;
+padding: 10px;
+font-size: 1em;
+border-radius: 5px;
+/* border: none; */
+width: 100%;
+box-sizing: border-box;
+}
+
+.search-form button[type="submit"] {
+background-color: #007bff;
+color: #fff;
+/* border: none; */
+padding: 10px 20px;
+font-size: 1em;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Search results styles */
+.search-results {
+margin: 50px auto;
+max-width: 600px;
+text-align: left;
+}
+
+.search-results h2 {
+font-size: 2em;
+margin-bottom: 20px;
+}
+
+.search-results li {
+margin-bottom: 40px;
+padding: 20px;
+background-color: #f8f8f8;
+border-radius: 5px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.search-results h3 {
+font-size: 1.5em;
+margin-bottom: 10px;
+}
+
+.search-results p {
+font-size: 1.2em;
+margin-bottom: 5px;
+}
+/* Search form styles */
+.search-form {
+margin: 50px auto;
+max-width: 600px;
+text-align: center;
+}
+
+.search-form h1 {
+font-size: 2em;
+margin-bottom: 20px;
+}
+
+.search-form form {
+display: inline-block;
+text-align: left;
+}
+
+.search-form label {
+display: block;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.search-form input[type="text"],
+.search-form select {
+display: block;
+margin-bottom: 20px;
+padding: 10px;
+font-size: 1em;
+border-radius: 5px;
+border: none;
+width: 100%;
+box-sizing: border-box;
+}
+
+.search-form button[type="submit"] {
+background-color: #007bff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 1em;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Search results styles */
+.search-results {
+margin: 50px auto;
+max-width: 600px;
+text-align: left;
+}
+
+.search-results h2 {
+font-size: 2em;
+margin-bottom: 20px;
+}
+
+.search-results li {
+margin-bottom: 40px;
+padding: 20px;
+background-color: #f8f8f8;
+border-radius: 5px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.search-results h3 {
+font-size: 1.5em;
+margin-bottom: 10px;
+}
+
+.search-results p {
+font-size: 1.2em;
+margin-bottom: 5px;
+}

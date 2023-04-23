@@ -30,8 +30,3 @@ label {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-
-/* Custom Navbar colour */
-.nav-link{
-    color: white !important;
-}

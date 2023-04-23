@@ -2,7 +2,7 @@
   "name": "healthsure",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pages.github.iu.edu/IU-Spring2023/healthsure-frontend/",
+  "homepage": "https://parampatil.github.io/healthsure-frontend/",
   "dependencies": {
     "@cometchat-pro/chat": "^3.0.11",
     "@emotion/react": "^11.10.6",
